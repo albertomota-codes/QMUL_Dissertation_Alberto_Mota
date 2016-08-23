@@ -223,7 +223,8 @@ The dilation process is the antithesis of the erosion. The matrix B moves inside
 The low-pass band filter is implemented by defining a cut-off frequency. All the components with a higher than the frequency are removed. As a result, only low-frequency components, which are characteristic of fibers, remain for the proper analysis.  Complementarily, as a finer filter, a dilate-erosion algorithm removes isolated groups of high-frequency components below the cut-off frequency.
 
 \subsection{Machine Learning Classification}
-\subsubsection{Bag Of Features}
+Supervised machine learning classifiers are adaptive algorithms to generate predictions based on datasets provided. The classifier algorithms prognosticate the group at which future dataset belongs.  The workflow first consists in extract datasets from test-images. The test-image's classification is well known. The datasets of each image are obtained from the images' features. The technique utilized to get images' features is called 'bag of words'. Then, the model is trained, to archive a model able to predict. The training was performed by different techniques such as: 'Linear discriminant','Fine Gaussian SVM', and 'Simple tree'. 
+\subsubsection{Bag Of Words}
 \subsubsection{Fine Gaussian SVM}
 \subsubsection{Simple Tree}
 \subsubsection{Linear Discriminant}
