@@ -1,0 +1,701 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.12)  23 AUG 2016 23:34
+entering extended mode
+**./LatexDisertation.tex
+(LatexDisertation.tex
+LaTeX2e <2016/02/01>
+Babel <3.9o> and hyphenation patterns for 70 language(s) loaded.
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\base\size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\geometry\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
+\Gm@dimlist=\toks15
+
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\geometry\geometry.cfg))
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\listings\listings.sty
+\lst@mode=\count91
+\lst@gtempboxa=\box26
+\lst@token=\toks16
+\lst@length=\count92
+\lst@currlwidth=\dimen113
+\lst@column=\count93
+\lst@pos=\count94
+\lst@lostspace=\dimen114
+\lst@width=\dimen115
+\lst@newlines=\count95
+\lst@lineno=\count96
+\lst@maxwidth=\dimen116
+
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count97
+\lst@skipnumbers=\count98
+\lst@framebox=\box27
+)
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\cmap\cmap.sty
+Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
+)
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\tools\array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks17
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count99
+\float@exts=\toks18
+\float@box=\box28
+\@float@everytoks=\toks19
+\@floatcapt=\box29
+)
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(LatexDisertation.aux)
+\openout1 = `LatexDisertation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+
+(G:\Desktop\LAtex\TexPortable\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen119
+\scratchbox=\box30
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen120
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks21
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count106
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 32.
+<<omx.cmap>>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 32.
+ [1
+
+{G:/Desktop/LAtex/TexPortable/MiKTeX/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+
+ []
+
+[3] (LatexDisertation.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+ [4]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [5])
+\tf@toc=\write3
+\openout3 = `LatexDisertation.toc'.
+
+ [6] (LatexDisertation.lof)
+\tf@lof=\write4
+\openout4 = `LatexDisertation.lof'.
+
+
+(LatexDisertation.lot)
+\tf@lot=\write5
+\openout5 = `LatexDisertation.lot'.
+
+ [7]
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [8]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [1]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [2] [3] [4]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [5]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [6]
+<FiguresDisertation/figure1.jpg, id=59, 711.4078pt x 713.66624pt>
+File: FiguresDisertation/figure1.jpg Graphic file (type jpg)
+
+<use FiguresDisertation/figure1.jpg>
+Package pdftex.def Info: FiguresDisertation/figure1.jpg used on input line 196.
+
+(pdftex.def)             Requested size: 455.24411pt x 456.70128pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no ∞ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no ∞ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no ∞ in font cmr10!
+
+<FiguresDisertation/figure2.jpg, id=60, 711.4078pt x 713.66624pt>
+File: FiguresDisertation/figure2.jpg Graphic file (type jpg)
+
+<use FiguresDisertation/figure2.jpg>
+Package pdftex.def Info: FiguresDisertation/figure2.jpg used on input line 204.
+
+(pdftex.def)             Requested size: 455.24411pt x 456.70128pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [7] [8 <./FiguresDisertation/figure1.jpg>] [9 <./FiguresDisertation/figure2.jp
+g>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [10]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ∏ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+<FiguresDisertation/figure3.jpg, id=74, 711.4078pt x 680.5425pt>
+File: FiguresDisertation/figure3.jpg Graphic file (type jpg)
+
+<use FiguresDisertation/figure3.jpg>
+Package pdftex.def Info: FiguresDisertation/figure3.jpg used on input line 244.
+
+(pdftex.def)             Requested size: 455.24411pt x 435.50417pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 248.
+ [11] [12 <./FiguresDisertation/figure3.jpg>]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ <FiguresDisertation/figure4.jpg, id=83, 711.4078pt x 680.5425pt>
+File: FiguresDisertation/figure4.jpg Graphic file (type jpg)
+
+<use FiguresDisertation/figure4.jpg>
+Package pdftex.def Info: FiguresDisertation/figure4.jpg used on input line 273.
+
+(pdftex.def)             Requested size: 455.24411pt x 435.50417pt.
+
+<FiguresDisertation/figure5.jpg, id=84, 711.4078pt x 680.5425pt>
+File: FiguresDisertation/figure5.jpg Graphic file (type jpg)
+
+<use FiguresDisertation/figure5.jpg>
+Package pdftex.def Info: FiguresDisertation/figure5.jpg used on input line 283.
+
+(pdftex.def)             Requested size: 455.24411pt x 435.50417pt.
+ [13] [14 <./FiguresDisertation/figure4.jpg>]
+Overfull \hbox (6.51314pt too wide) in paragraph at lines 291--292
+[]\OT1/cmr/m/n/12 First, a low-pass fil-ter re-moved the high-est fre-quency co
+m-po-nents. Then, high-frequency
+ []
+
+<FiguresDisertation/figure6.jpg, id=91, 711.4078pt x 680.5425pt>
+File: FiguresDisertation/figure6.jpg Graphic file (type jpg)
+
+<use FiguresDisertation/figure6.jpg>
+Package pdftex.def Info: FiguresDisertation/figure6.jpg used on input line 296.
+
+(pdftex.def)             Requested size: 455.24411pt x 435.50417pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [15] [16 <./FiguresDisertation/figure5.jpg>] [17 <./FiguresDisertation/figure6
+.jpg>] [18]
+<FiguresDisertation/figure7.png, id=105, 711.4078pt x 713.66624pt>
+File: FiguresDisertation/figure7.png Graphic file (type png)
+
+<use FiguresDisertation/figure7.png>
+Package pdftex.def Info: FiguresDisertation/figure7.png used on input line 331.
+
+(pdftex.def)             Requested size: 455.24411pt x 456.70128pt.
+
+<FiguresDisertation/figure8.jpg, id=107, 711.4078pt x 680.5425pt>
+File: FiguresDisertation/figure8.jpg Graphic file (type jpg)
+
+<use FiguresDisertation/figure8.jpg>
+Package pdftex.def Info: FiguresDisertation/figure8.jpg used on input line 341.
+
+(pdftex.def)             Requested size: 455.24411pt x 435.50417pt.
+
+<FiguresDisertation/figure9.png, id=108, 711.4078pt x 713.66624pt>
+File: FiguresDisertation/figure9.png Graphic file (type png)
+
+<use FiguresDisertation/figure9.png>
+Package pdftex.def Info: FiguresDisertation/figure9.png used on input line 352.
+
+(pdftex.def)             Requested size: 455.24411pt x 456.70128pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 367.
+
+<FiguresDisertation/t1a.png, id=109, 210.03468pt x 211.54031pt>
+File: FiguresDisertation/t1a.png Graphic file (type png)
+
+<use FiguresDisertation/t1a.png>
+Package pdftex.def Info: FiguresDisertation/t1a.png used on input line 373.
+(pdftex.def)             Requested size: 227.62206pt x 240.13222pt.
+
+<FiguresDisertation/t1b.png, id=110, 206.27063pt x 201.75375pt>
+File: FiguresDisertation/t1b.png Graphic file (type png)
+
+<use FiguresDisertation/t1b.png>
+Package pdftex.def Info: FiguresDisertation/t1b.png used on input line 374.
+(pdftex.def)             Requested size: 227.62206pt x 233.71764pt.
+
+<FiguresDisertation/t1c.png, id=111, 215.30438pt x 208.52907pt>
+File: FiguresDisertation/t1c.png Graphic file (type png)
+
+<use FiguresDisertation/t1c.png>
+Package pdftex.def Info: FiguresDisertation/t1c.png used on input line 376.
+(pdftex.def)             Requested size: 227.62206pt x 231.07584pt.
+
+<FiguresDisertation/t1d.png, id=112, 202.50656pt x 202.50656pt>
+File: FiguresDisertation/t1d.png Graphic file (type png)
+
+<use FiguresDisertation/t1d.png>
+Package pdftex.def Info: FiguresDisertation/t1d.png used on input line 377.
+(pdftex.def)             Requested size: 227.62206pt x 238.91042pt.
+
+<FiguresDisertation/t1e.png, id=113, 210.03468pt x 211.54031pt>
+File: FiguresDisertation/t1e.png Graphic file (type png)
+
+<use FiguresDisertation/t1e.png>
+Package pdftex.def Info: FiguresDisertation/t1e.png used on input line 379.
+(pdftex.def)             Requested size: 227.62206pt x 240.13222pt.
+
+<FiguresDisertation/t1f.png, id=114, 205.5178pt x 198.7425pt>
+File: FiguresDisertation/t1f.png Graphic file (type png)
+
+<use FiguresDisertation/t1f.png>
+Package pdftex.def Info: FiguresDisertation/t1f.png used on input line 380.
+(pdftex.def)             Requested size: 227.62206pt x 231.23564pt.
+
+Overfull \hbox (25.19998pt too wide) in paragraph at lines 369--383
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 95.38351pt on input line 385.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[19] [20 <./FiguresDisertation/figure7.png>] [21 <./FiguresDisertation/figure8.
+jpg>] [22 <./FiguresDisertation/figure9.png>] [23 <./FiguresDisertation/t1a.png
+> <./FiguresDisertation/t1b.png> <./FiguresDisertation/t1c.png> <./FiguresDiser
+tation/t1d.png> <./FiguresDisertation/t1e.png> <./FiguresDisertation/t1f.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+[24]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [25]
+Overfull \hbox (35.08275pt too wide) in paragraph at lines 439--440
+[]\OT1/cmr/m/n/12 Only two tech-niques could anal-yse the ten-don fibers: Fouri
+er's ap-proach and computationally-
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ô in font cmbx12!
+[26]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+ <FiguresDisertation/figure10o9.jpg, id=147, 264.99pt x 260.975pt>
+File: FiguresDisertation/figure10o9.jpg Graphic file (type jpg)
+
+<use FiguresDisertation/figure10o9.jpg>
+Package pdftex.def Info: FiguresDisertation/figure10o9.jpg used on input line 4
+66.
+(pdftex.def)             Requested size: 455.24411pt x 448.37845pt.
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+ [27] [28 <./FiguresDisertation/figure10o9.jpg>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [29]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [30]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [31]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+ [32]
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ô in font cmbx12!
+ [33]
+Overfull \hbox (48.20139pt too wide) in paragraph at lines 539--540
+\OT1/cmr/m/n/12 line(http://loci.wisc.edu/files/loci/software /ct-FIRE%20Beta%2
+0V1.2.1%20Users%20Manual.pdf) 
+ []
+
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+[34]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [35]
+Overfull \hbox (27.04486pt too wide) in paragraph at lines 571--572
+\OT1/cmr/m/n/12 op-ers to im-ple-ment new fea-tures. The plu-gin code is hosted
+ in:https://github.com/motapuma/-
+ []
+
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+[36] [37]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ° in font cmr12!
+ [38] [39] [40]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+ [41]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ê in font cmr12!
+ [42]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+ [43] [44]<<ot1tt.cmap>>
+(SourceCode/Fiber_Orientation.java
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
+ [45] [46] [47] [48] [49] [50] [51]
+Overfull \hbox (13.1583pt too wide) in paragraph at lines 305--306
+[][] 
+ []
+
+[52]
+Overfull \hbox (48.34628pt too wide) in paragraph at lines 308--309
+[][][][][] 
+ []
+
+[53] [54] [55] [56] [57]
+Overfull \hbox (13.85379pt too wide) in paragraph at lines 503--504
+[][][][][] 
+ []
+
+[58]) [59] (LatexDisertation.aux) ) 
+Here is how much of TeX's memory you used:
+ 3444 strings out of 493622
+ 49934 string characters out of 3140856
+ 258713 words of memory out of 3000000
+ 6763 multiletter control sequences out of 15000+200000
+ 10367 words of font info for 37 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 29i,11n,47p,1120b,1519s stack positions out of 5000i,500n,10000p,200000b,50000s
+<G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmitt10.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb><G:/Desktop/LAtex/TexPortable/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb>
+Output written on LatexDisertation.pdf (67 pages, 1522394 bytes).
+PDF statistics:
+ 299 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+

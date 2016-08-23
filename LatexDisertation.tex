@@ -221,6 +221,13 @@ The erosion process of an image A by a matrix B, needs B moving within the image
 The dilation process is the antithesis of the erosion. The matrix B moves inside the image A; if an image pixel matches the matrix B at the center, the pixels are retained or added to the image will. Thus, the removed pixels of the edges of the fibers are restored in the image.
 
 The low-pass band filter is implemented by defining a cut-off frequency. All the components with a higher than the frequency are removed. As a result, only low-frequency components, which are characteristic of fibers, remain for the proper analysis.  Complementarily, as a finer filter, a dilate-erosion algorithm removes isolated groups of high-frequency components below the cut-off frequency.
+
+\subsection{Machine Learning Classification}
+\subsubsection{Bag Of Features}
+\subsubsection{Fine Gaussian SVM}
+\subsubsection{Simple Tree}
+\subsubsection{Linear Discriminant}
+
 \section{Methods}
 \subsection{Images sources}
 Images were supplied by: Dr. Delaine-Smith and Dr. Rowson. The  Dr. Delaine-Smith's images were obtained using a Second Harmonic Generation (SHG) microscopy from metastatic ovarian tumours biopsies. The samples were fixed and  embedded in paraffin. Finally, they were ordered into tumour microarray.  Dr. Rowson's images were obtained from rat-tail tendon fascicles stained with DTAF. DTAF stains proteins, which are primarily presents in collagen.
@@ -312,6 +319,9 @@ In comparison to the FIRE’s algorithm, a simpler fiber detection algorithm was
 Chen et al. assessed the fibers' orientations using ImageJ. The user traced a line in the same direction than a fiber; then, ImageJ measures the line angle of the drawn line. However, the fibers are oriented in many directions. The user must draw lines in the same direction that most of the fibers. In spite of evaluating the human-computer aid approach, for each image, twenty lines were drawn parallel to the fibers. The lines' angle mean was assumed the main orientation angle. The main orientation angle is the parameter to compare with the other approaches.
 
 The principal disadvantage of the human-computer aid analysis is that it relies on the human judgment. It depends on the limited amount of samples evaluated. The person has to choose which fibers to appraise. Furthermore, the fibers are considered as straight lines, but actually, they are curves.
+
+\subsection{Machine Learning Classification}
+
 
 \subsection{Software Development}
 First, the algorithms were implemented in MATLAB for quickly debugging, as a proof of concept. However, as MATLAB is not an open source platform, then, the algorithms were implemented using Python. The Python implementation presents some disadvantages for the users, because it requires the Python and dependencies installation to run. Therefore, in order to provide a more user-friendly solution, a plugin for ImageJ was developed. The ImageJ plugin was developed in Java. ImageJ is a popular software in the scientist community to analyse images. Moreover, ImageJ has a tested full interface to manage images.
@@ -456,6 +466,9 @@ Tendon fibers were assessed only for angle orientation. Only the Fourier’s and
 
 The orientation angle error (4.6\%) is within a tolerable range. The computer-aid test is tricky because the fibers are not distinguishable by the human eye. However, in order to measure the orientation is not required to distinguish each fiber; the judge can draw lines parallel to the groups of fibers.
 
+\subsection{Machine Learning Classification}
+
+
 \subsection{ImageJ plugin}
 
 The ImageJ plugin was developed to facilitate researchers the analysis of fibers. The plugin was designed to be user-friendly. Only two parameters could be customized: degrees separation and binarization threshold. By default, the binarization threshold is calculated dynamically with the Otsu´s method. If it is required, it could be defined by the user, selecting the checkbox “Binary Thres.”. The “degrees of separation” is $\Delta\theta$ ; the separation in degrees between the imaginary lines drawn to calculate the summation of  the frequency spectrum. The shorter $\Delta\theta$, the more accuracy archived.  In consequence, also the computational time required is longer.
@@ -587,6 +600,9 @@ The OFD's peak-density is a quantitative value that describes the maximum peak i
  
 The orientation angle is useful just when it is related to a reference point; for example, a tumour. Also, the orientation and location at which the image was taken should be considered and registered. On the other hand, the OFD's peak-density is independent of the angle and location where the picture was taken. Moreover, the OFD's peak-density represents the fiber organization level; so it is a parameter to prognosis cancer by it owns, independently of the orientation angle. Therefore, is simpler to recognize TACS, using the OFD's peak-density rather than keep track of the pictures location and orientation. 
 
+\subsection{Machine Learning Classification}
+
+
 \subsection{Statistical Results}
 
 The statistical results are not as strong for two reasons. Firstly, there is not a golden stander to compare. Secondly, the fibers feature population are not supposed to be homogenous. 
@@ -627,7 +643,7 @@ The orientation angle needs to be referenced to a point; then, the orientation a
 
 The plugin was released under an open source license; thus, it is a free solution to analyse the fibers. The plugin implements the Fourier´s analysis with a friendly user-interface. Supplementary, it facilitates the process customization for the images that requires it. The defaults parameters can analyse most of the images. The idea of characterizing a fibers orientation by a single angle does not have consistent meaning;the angle must be referenced to another point. Besides, fibers are curves, so is a challenge characterize the curves by an angle. The OFD´s peak-density is more relevant because is a quantitative measurement of the level of fibers alignment, ideal to identify TACS.
 
-All the techniques to evaluate fibers are candidates to improvements. All require further development. As a result, there is not a golden standard to compare with. The 2D-FFT analysis is useful for any fibers organization; it provides reliable, and consistent results. The OFD's peak-density is a standalone parameter which quantifies the level of fibers arrangement in the same direction.  The peak-density parameter helps to prognosis cancer stage by identifying TACS. In order to understand how the fibers' characteristics affect biologic processes, a multivariable analysis must be carried out. Machine learning could be a suitable solution.
+All the techniques to evaluate fibers are candidates to improvements. All require further development. As a result, there is not a golden standard to compare with. The 2D-FFT analysis is useful for any fibers organization; it provides reliable, and consistent results. The OFD's peak-density is a standalone parameter which quantifies the level of fibers arrangement in the same direction.  The peak-density parameter helps to prognosis cancer stage by identifying TACS. In order to understand how the fibers' characteristics affect biologic processes, a multivariable analysis must be carried out. Machine learning could be a suitable solution;however, more samples are required to archive reliable results.
 
 The main novel proposal of this report is the peak-detect parameter to measure the level of fiber arrangement. The peak-density parameter enable researchers to identify quantitatively the TACS3. The plugin developed, could be used in any scientific field that assess fibers organizations.
 
