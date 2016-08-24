@@ -4,6 +4,7 @@
 \usepackage[margin=2.5cm]{geometry}
 \usepackage{listings}
 \usepackage{cmap}
+\usepackage{afterpage}
 %\usepackage{bashful}
 %\bash
 %texcount -sum -1 tmp.tex
@@ -25,13 +26,14 @@
 \renewcommand{\baselinestretch}{1.50}\normalsize
 
 
-\title{ 2D-Fourier Transform Based Quantitative Fibers Assessment for Cancer Stage Prognosis }
+\title{ An Automatized Analysis to Quantify Collagen Fiber Alignment for Identification of Cancer Biomarkers }
 \author{by Alberto Mota Romero \\DENM006: Biomedical Engineering Project \\Supervisor: Dr. Lei Su}
 
-\date{August 2016}
+\date{Word count:11,839 \\26 August 2016}
 \maketitle
 \thispagestyle{empty}
 
+\newpage\null\thispagestyle{empty}\newpage
 
 \newpage
 \begin{center}
@@ -46,11 +48,9 @@ DECLARATION\\[0.5in]
 
 This report entitled:\\[0.1in]
 
-\textbf{2D-Fourier Transform Based Quantitative Fibers Assessment for Cancer Stage Prognosis\\[0.1in]}
+\textbf{An Automatized Analysis to Quantify Collagen Fiber Alignment for Identification of Cancer Biomarkers [0.1in]}
 
 Was composed by me and is based on my own work. Where the work of the others has been used, it is fully acknowledged in the text and in captions to table illustrations. This report has not been submitted for any other qualification.\\
-
-
 
 Name: \textbf{Alberto Mota Romero} \\
 
@@ -61,17 +61,26 @@ Date: \textbf{26 August 2016}
 \thispagestyle{empty}
 \newpage
 
-
+\newpage\null\thispagestyle{empty}\newpage
 
 \LARGE\textbf{Abstract}\\[0.1in]
 \normalsize
 
-Fibers arrangements analysis lead to relevant diagnostics, such as the cancer stage. Nowadays, there is not a golden standard to assess the fibers images. Analyse the fibers organizations quantitatively and objectively is fundamental to obtain reliable results. The fibers' features examined were: diameter, length, and orientation angle. Four techniques to assess fibers were implemented and tested. As a result, weaknesses and strengths of each technique were identified. The CT-FIRE software, developed by the University of Wisconsin-Madison, was adopted as reference. A Single Fiber Isolation (SFI) algorithm was developed to identify individual fiber; as a result, each fiber could be examined separately.  A computer-aided approach measures the fibers characteristic manually in ImageJ. Finally, 2D-FFT spectrum analysis, introduced by Ayres and Levitt, was implemented in an ImageJ plugin. The plugin is available to the public under an open-source license. As the final aim is to classify fibers organizations; additionally, a machine learning classification algorithm was implemented. 
+Fibers arrangements analysis lead to relevant diagnostics, such as the cancer stage. Nowadays, there is not a golden standard to assess the fibers images. Analyse the fibers organizations quantitatively and objectively is fundamental to obtain reliable results. The fibers' features examined were: diameter, length, and orientation angle. Four techniques to assess fibers were implemented and tested. As a result, weaknesses and strengths of each technique were identified. 
+
+\paragraph{}
+The CT-FIRE software, developed by the University of Wisconsin-Madison, was adopted as reference. A Single Fiber Isolation (SFI) algorithm was developed to identify individual fiber; as a result, each fiber could be examined separately.  A computer-aided approach measures the fibers characteristic manually in ImageJ. The 2D-FFT spectrum analysis, introduced by Ayres and Levitt, was implemented in an ImageJ plugin. The plugin is available to the public under an open-source license. As the final aim is to classify fibers organizations; additionally, a machine learning classification algorithm was implemented.
+ 
+\paragraph{}
 The peak-density parameter is proposed to assess the maximum peak present in the OFD. The peak-density determines the level of fibers organization quantitatively. Fibers organization is a biomarker to identify the cancer stage. The fibers assessed were obtained from two sources: collagen on ovarian cancer tumours and rat-tendon collagen fibers.
 \thispagestyle{empty}
 \newpage
 
+\newpage\null\thispagestyle{empty}\newpage
+
+\thispagestyle{empty}
 \tableofcontents
+\thispagestyle{empty}
 \thispagestyle{empty}
 \newpage
 \listoffigures
@@ -122,7 +131,7 @@ The peak-density parameter is proposed to assess the maximum peak present in the
 
 \subsection{Motivation}
 
-Often, the textile and biomedical sciences have to assess fibers' morphology.  Fibers' length and orientation determine mechanic properties of textile products (Pourdeyhimi, 2002). In the biomedical field, the morphology of fibers is significant for various topics . For instance, the fiber organization determines the interaction between cells and extracellular matrix (ECM) (Ayres, 2008). Thus, for a tissue engineering scaffold, the fibers' morphology determines the cells proliferation and ECM synthesis. Furthermore, collagen fiber orientation is a prognosis of cancer tumor formation (Conklin et al, 2011). In addition, collagen fiber arrangement analysis lead to prognosis tissues disorders, such as osteoarthritis and fibrosis (Chen et. al, 2012).
+Often, the textile and biomedical sciences have to assess fibers' morphology.  Fibers' length and orientation determine mechanic properties of textile products (Pourdeyhimi, 2002). In the biomedical field, the morphology of fibers is significant for various topics . For instance, the fiber organization determines the interaction between cells and extracellular matrix (ECM) (Ayres, 2008). Thus, for a tissue engineering scaffold, the fibers' morphology determines the cells proliferation and ECM synthesis. Furthermore, collagen fiber orientation is a prognosis of cancer tumor formation (Conklin et al, 2011). In addition, collagen fiber arrangement analysis lead to prognosis tissues disorders, such as osteoarthritis and fibrosis (Chen et. al, 2012). The collagen fiber organization present in the sclerae is matter of study in the glaucoma development (Pijanka ,2012).Identify fiber organization in cutaneous scar tissue is fundamental to understand the cutaneous wound repair(Quinn,2015).
 
 Conklin et al transmit the responsibility of judge the fibers' morphology to humans. Chen et al assessed the images under a computer aided non-automatized technique. The  main challenge is to characterize the fibers arrangement applying an objective, automatized and quantitative method.
 \subsection{Objectives}
@@ -132,7 +141,7 @@ In addition, this report aims to validate the idea of summarizing the level of f
 \subsection{State of art}
 The 2D Fast Fourier Transformation (2D-FFT) analysis is a common technique to assess the level of alignment of fibers. Further analysis is required to obtain the quantitative values about the fibers orientation. Ayre anf Levitt suggested a radial summation of the 2D frequency spectrum to obtain the orientation function distribution (OFD). The OFD associates an angle orientation to the quantity of frequency spectrum calculated at that angle. As a result, instead of examining the orientation of fibers from an image, or 2D-FFT spectrum, the OFD graph is analysed. The 2D-FFT procedure has weaknesses; for example, it is concerned by the diameter of the fibers. In addition, the high-frequency components provide non-relevant information; therefore, in order to extract the relevant information, a low-pass filter should be implemented. Tune the low-pass filter could be challenging. Remove components involve losing information about the fibers. The 2D-FFT contributes knowledge about the overall alignment of fibers.
 
-The Hough transform is another mathematical model; it determines the probability of finding a line on an image. The probability is provided for each pair $(r,\theta)$, which defines a line by the equation $r=xcos(\theta)+ysin(\theta)$ .  Although the Hough’s transform is limited to straight lines while the fibers are curved, Pourdeyhimi used this approach. As the 2D-FFT, the Hough transform generates an OFD. However, the Hough transform is computationally more expensive than the 2D-FFT without providing any extra advantage.
+The Hough transform is another mathematical model; it determines the probability of finding a line on an image. The probability is provided for each pair $(r,\theta)$, which defines a line by the equation $r=xcos(\theta)+ysin(\theta)$ .  Although the Hough’s transform is limited to straight lines while the fibers are curved, Pourdeyhimi used this approach. As the 2D-FFT, the Hough transform generates an OFD. However, the Hough transform is computationally more expensive than the 2D-FFT without providing any extra advantage.Pehlke implemented a semi-automatized algorithm to measure the fibers organization with the Fast Discrete Curvelet Transform(2011).
 
 The University of Wisconsin Laboratory for Optical and Computational Instrumentation (LOCI) has produced a complete solution to analyse the fibers morphology. They developed CT-FIRE, an automatized software tool. CT-FIRE is the combination of two algorithms: Curvelet transform (CT) and FIbeR Extraction (FIRE). The FIRE algorithm employs the image intensity to identify each individual fibers. After detecting each fiber, the CT algorithm extracts information about each, such as: length, width, and straightness. The main CT algorithm feature is that it studies the fibers as curves, instead of straight lines; therefore, the results should be more accurate.
 
@@ -151,17 +160,21 @@ The golden standard solution must be automated, reliable, quantitative and objec
 ImageJ is a software widely used to analyse images. The solution presented is an open-source plugin for ImageJ.  The plugin implements the solution based in 2D-FFT, as proposed by Levitt and Ayres.  The output produced is the OFD generation. In addition, the plugin introduces a novel post-analysis process of the OFD graph. The post-analysis stage evaluates the OFD peaks in order to summarize the fibers orientation under a single numeric value.
 \section{Theory}
 \subsection{Cancer-Collagen Correlation}
-Stromal cells and collagen organization are signs of metastasis and tumour formation (Conklin,2011). As a response to the tumour formation, the stromal reacts by increasing the presence of collagen and stromal cells. As a result, the tumour is developed even further.  The stages of breast cancer tumour formation are well described by Conklin et al. First, the membrane surrounding the epithelium breakdown. Then, the stromal collagen matrix is rearranged. Finally, stromal and tumour cells are recruited. In all the stages, the collagen organization has a fundamental function. The collagen organization at each stage is well characterized by tumour-associated collagen signatures (TACS) (Proveranzo, 2006,2008).
+Stromal cells and collagen organization are signs of metastasis and tumour formation (Conklin,2011). As a response to the tumour formation, the stromal reacts by increasing the presence of collagen and stromal cells. As a result, the tumour is developed even further.  The stages of breast cancer tumour formation are well described by Conklin et al. First, the membrane surrounding the epithelium breakdown. Then, the stromal collagen matrix is rearranged. Finally, stromal and tumour cells are recruited. In all the stages, the collagen organization has a fundamental function. The collagen organization at each stage is well characterized by tumour-associated collagen signatures (TACS) (Proveranzo, 2006,2008).Actually Grossman et al were able to change the collagen orientation to inhibit the cancer tumor formation(2016).
 
 In the first tumour formation stage, characterized by TACS-1, the amount of collagen increases near to the place where the tumour will grow. After that, on TACS-2, the collagen fibers becomes straight and aligned parallel to the tumour boundary.  At the final stage, the collagen fibers rearrange perpendicular to the tumour , getting a TACS-3. The presence of TACS-3 is relevant because allows an effortless tumour cell invasion into the stroma.Conklin et al found that the aligned collagen is fundamental to facilitate the cancer cells invasion. 
 
 The TACS examination is important to understand the cancer progress. Furthermore, Connklin at al correlated the presence of TACS-3 with the survival rate. The presence of TACS-3 is a biomarker that indicates lower   survival rate. Therefore, a correct interpretation of  collagen fiber images could lead to significant information to diagnosis cancer patients life expectancy.
 
 Besides, the presence of dense collagen is a predisposition state for  cancer development. Thereby, in breast cancer, a dense mastography is an indication of cancer risk. Both, collagen and  stromal generate contrast in X-ray images; so, it is not possible to distinguish the influences of each component. The second harmonic generation (SHG) microscopy generate images based only in the collagen presence. Thus, SHG is a used approach to study the collagen organization during cancer development.
+
+
+
 \subsection{Second Harmonic Generation(SHG)}
 SHG microscopy is fundamental for the collagen analysis because discloses exclusively the collagen fibers. The SHG has specificity for the collagen without staining or labelling. Only the collagen creates image contrast due to the interaction between the two photons generated with the non-centrosymmetric collagen structure. A narrow bandpass filter centered on one-half the laser wavelength filters the backscattered signal. In order to assess the TACS, the SHG is ideal because the image contrast is generated entirely by collagen. 
 
-The SHG images intensity depends on the fiber thickness and alignment of overlapping fibers (Conkin,2011). Thus, the fibers intensity per se is a parameter to measure the level of fibers alignment. If the fibers are aligned and overlapped, the SHG signal is stronger. Thus, as TACS are based on the alignment of fibers, the SHG images intensity is a useful parameter for evaluating TACS.
+The SHG images intensity depends on the fiber thickness and alignment of overlapping fibers (Conkin,2011). Thus, the fibers intensity per se is a parameter to measure the level of fibers alignment. If the fibers are aligned and overlapped, the SHG signal is stronger. Thus, as TACS are based on the alignment of fibers, the SHG images intensity is a useful parameter for evaluating TACS. Walsh assessed the collagen organization using the SHG microscopy due to the SHG predisposition to detect collagen (2015).
+
 \subsection{2D Fourier Transformation as fiber orientation measurement}
 The 2D Fourier's transformation is a generalization of 1D Fourier's transformation. The Fourier transformation is because every periodic function is expressed as a series of sines and cosines. Then, the periodic function is represented by the sines-cosines coefficients and frequencies. If a function is non-periodic, it is considered periodic with an infinite period.
 
@@ -341,6 +354,8 @@ A bag-of-word of 200 elements were obtained from the train-set to characterize e
 
 The training set of images were classified as aligned and unaligned by the human judgment. Then, the  models were trained by using tree techniques:'Linear Discriminant Analysis','Fine Gaussian Support Vector Machine', and 'Simple Decision Tree'. The models were trained automatically by the MATLAB Statistics and Machine Learning Toolbox.  The influence of human judgment is never desired. 
 
+For the same images, two datasets were trained seeded by different features. One dataset was feed with the 200 visual-words; while the second dataset was feed with the peak-density and OFDs values (mean, standard deviation, maximum and minimum).
+
 \subsection{Software Development}
 First, the algorithms were implemented in MATLAB for quickly debugging, as a proof of concept. However, as MATLAB is not an open source platform, then, the algorithms were implemented using Python. The Python implementation presents some disadvantages for the users, because it requires the Python and dependencies installation to run. Therefore, in order to provide a more user-friendly solution, a plugin for ImageJ was developed. The ImageJ plugin was developed in Java. ImageJ is a popular software in the scientist community to analyse images. Moreover, ImageJ has a tested full interface to manage images.
 
@@ -486,6 +501,32 @@ The orientation angle error (4.6\%) is within a tolerable range. The computer-ai
 
 \subsection{Machine Learning Classification}
 
+Two datasets were tested: 200 visual-word based and peak-density based. The  statistical and peak-density approach had better results independently of the classification learning technique, table3.
+
+
+\begin {table}[H]
+\begin{center}
+\begin{tabular}{ |c|c|c| }
+\hline
+  \bf{Classifier} & \bf{Visual-word based} & \bf{Peak-density based} \\
+ \hline
+ \bf{Simple Decision Tree} & 85.7\% & 100\% \\ 
+ \hline
+ \bf{Linear Discriminant} & 92.9 & 100\%  \\ 
+ \hline
+ \bf{SVM} & 64.3\% & 92.9\%  \\ 
+\hline    
+\end{tabular}
+\caption {Machine Learning Classifier precision comparison.}
+\footnotesize
+\begin{flushleft}
+Although the visual-word based dataset has 200 values to characterize the images, the peak-density based dataset, with only four values, is more reliable. 
+\end{flushleft}
+
+\end{center} 
+\end {table}
+
+The peak-density dataset reaches a 100\% of accuracy classifying images; however, this result could mislead due to the few quantity of samples. More samples must be tested to obtain more reliable results. Every machine learning approach improves its accuracy with the peak-density model. 
 
 \subsection{ImageJ plugin}
 
@@ -599,7 +640,7 @@ In the absence of a golden standard, there is not comparison reference. However,
 \subsection{Open Source}
 The principal advantage of the ImageJ plugin is the availability as open-source.  It is free and easy to install. As an ImgeJ's plugin, it has all the facilities provided by ImageJ. Moreover, the plugin is easy to use; minimal parameters are requested to the user. Actually, it can run using the defaults values. In addition, the process can be conducted step-by-step; so, the user is able to customize each step. The step-by-step mode is useful to: tune the erosion-dilation algorithms and understand the process. 
 
-In comparison to CT-FIRE, the plugin does not require a MATLAB license. Both, ImageJ and the plugin are free. Besides, open-source software allows contributions for developers to implement new features. The plugin code is hosted in:https://github.com/motapuma/-Fiber-Alignment/tree/ master/ImageJ\_Own\_Plugin.
+In comparison to CT-FIRE, the plugin does not require a MATLAB license. Both, ImageJ and the plugin are free. Besides, open-source software allows contributions for developers to implement new features. The plugin code is hosted in:https://github.com/albertomota-codes/AutomatizedFibersAssessment.
 \subsection{Usability}
 Setup many parameters to execute CT-FIRE requires knowledge about the algorithm. Invest time in understanding the CT-FIRE´s setup parameters is time-consuming. The lack of knowledge about the CT-FIRE becomes a limitation for new adopters. 
 
@@ -620,6 +661,11 @@ The orientation angle is useful just when it is related to a reference point; fo
 
 \subsection{Machine Learning Classification}
 
+The images' feature to make the dataset are  fundamental to archive an accurate machine learning model. The peak-density and the OFD's statistical parameters describe more accurately the images than  200  visual-words. Therefore, analyse the images based in the peak-density and the OFD is a reliable approach.
+
+In general, the linear discriminant analysis is the most suitable technique to classify the fiber's organization. However, to obtain more reliable results, more samples are required for the training stage.
+
+Machine learning approach could be a suitable approach to detect TACS. The levels of accuracy classifying the images reaches the 100\%, however, more images are required to validate results.
 
 \subsection{Statistical Results}
 
@@ -640,13 +686,13 @@ Machine learning algorithms could classify the fibers images based on multiple p
 
 \section{Conclusion}
 \subsection{Future work}
-An automatized solution to assess the fibers width and length for no-extractable fibers is a challenge. An approach could be improving the detection of individual fibers using machine learning. Another approaches could be based on mathematical methods. 
+An automatized solution to assess the fibers width and length for no-extractable fibers is a challenge. An approach could be improving the detection of individual fibers using machine learning using more images. Another approaches could be based on mathematical methods. 
 
-The higher the frequency components, the thinner the periodic signals. High-frequency components represent signals thinner than fibers, so they can be filtered. The 2D-FFT analysis could work without the low-pass filter, but it generates less smooth results.   Develop a filter that adapts dynamically to differents 2D-FFT will produce smoother outcomes.
+The higher the frequency components, the thinner the periodic signals. High-frequency components represent signals thinner than fibers, so they can be filtered. The 2D-FFT analysis could work without the low-pass filter, but it generates less smooth results. Develop a filter that adapts dynamically to differents 2D-FFT will produce smoother outcomes.
 
 The SFI algorithm must be adjusted to detect fibers networks on the groups of pixels assumed as fibers. It requires an algorithm similar to FIRE's; but it should be able to distinguish individual fibers even for dense, overlapping and thin fibers. Moreover, a better approximation to assess the fibers length and diameter must be implemented to increase the accuracy. The elliptic approximation is not precise enough.
 
-A complete image characterization must be a multi-variable approach. The principal aim is to correlate fibers characteristics with diseases. An automatized technique to understand each parameter correlation could be based on machine learning. Specifically, a supervised learning binary classifier algorithm, such as perceptron, would determine the relevance of each parameter to make a correct diagnosis. Furthermore, the algorithm would be able to create automatized diagnosis based in images. Machine learning algorithms can keep records of all  previous cases, so the diagnosis accuracy increases over the time. 
+A complete image characterization must be a multi-variable approach. The principal aim is to correlate fibers characteristics with diseases. An automatized technique to understand each parameter correlation could be based on machine learning. Specifically, a supervised learning binary classifier algorithm, would determine the relevance of each parameter to make a correct diagnosis. Furthermore, the algorithm would be able to create automatized diagnosis based in images.The machine learning approaches demonstrated the peak-density and OFD's statistical values are favorable parameters to describe the fibers organizations. Machine learning algorithms can keep records of all  previous cases, so the diagnosis accuracy increases over the time. 
 
 \subsection{Conclusion}
 The 2D-FFT approach is an automatized reliable solution to analyse fibers' images, independently of the fibers thin and thick. On the other hand, this technique is limited to assess fibers orientation. No information about the fibers' length and diameter are obtained. The Fourier's transform extract information of the complete image; so the results exhibits the orientation of all the fibers, independently of the fiber's length. Then, the longest fibers have more influence in the 2D-FFT. The 2D-FFT examination differs from the CT-FIRE results in an acceptable 6.9\%. The Fourier's analysis is independent of the capability to identify individual fiber; therefore, it is the most reliable method to measure the fibers arrangement.
@@ -657,7 +703,7 @@ Computer aided analysis conducted by humans have bias and limitations. Judges ar
 
 The CT-FIRE software, developed by the Wisconsin University, is a trustworthy reference for fibers analysis. The main advantages are the Curvelet and FIRE algorithms. The Curvlet algorithm analyse the fibers as curves to detect the real length and diameter. The robust FIRE fiber extraction algorithm allows identifying individual fibers. Withal, the orientation angle is calculated by a line drawn from the initial to the final point. The CT-FIRE weakness is the incapacity to distinguish fibers in dense thin arrangements. CT-FIRE is coded on MATLAB; thus, a MATLAB license is required to run the code. The code is not released in an open-source interface to allow contributions of developers.  
 
-The orientation angle needs to be referenced to a point; then, the orientation angle has a meaning. The angle per se, without context, does not have any significance. The OFD's peak-density is a measurement of the alignment, independently of the location. It is a parameter to quantify how aligned are the fibers. Peak-density can be a critical parameter for early ovarian cancer prognosis. The idea of the peak-density is a novel useful idea proposed in this paper. 
+The orientation angle needs to be referenced to a point; then, the orientation angle has a meaning. The angle per se, without context, does not have any significance. The OFD's peak-density is a measurement of the alignment, independently of the location. It is a parameter to quantify how aligned are the fibers. Peak-density can be a critical parameter for early ovarian cancer prognosis. The idea of the peak-density is a novel useful idea proposed in this paper. The machine learning has shown the OFDs and peak-density parameters are critical to characterize the fibers arrangments.
 
 The plugin was released under an open source license; thus, it is a free solution to analyse the fibers. The plugin implements the Fourier´s analysis with a friendly user-interface. Supplementary, it facilitates the process customization for the images that requires it. The defaults parameters can analyse most of the images. The idea of characterizing a fibers orientation by a single angle does not have consistent meaning;the angle must be referenced to another point. Besides, fibers are curves, so is a challenge characterize the curves by an angle. The OFD´s peak-density is more relevant because is a quantitative measurement of the level of fibers alignment, ideal to identify TACS.
 
@@ -689,6 +735,14 @@ Thanks to the Mexican National Council for Science and Technology (CONACYT) for 
 \item J. S. Bredfeldt, Y. Liu, C. A. Pehlke, M. W. Conklin, J. M. Szulczewski, D. R. Inman, P. J. Keely, R. D. Nowak, T. R. Mackie, and K. W. Eliceiri, “Computational segmentation of collagen fibers from second-harmonic generation images of breast cancer,” J. Biomed. Opt., vol. 19, no. 1, pp. 016007–016007, 2014.
 \item Sun, M., Bloom, A.B. \& Zaman, M.H. 2015, "Rapid Quantification of 3D Collagen Fiber Alignment and Fiber Intersection Correlations with High Sensitivity: e0131814", PLoS One, vol. 10, no. 7.
 \item Hong, L., Wan, Y., and Jain, A. K. 'Fingerprint image enhancement: Algorithm and performance evaluation'. IEEE Transactions on Pattern Analysis and Machine Intelligence 20, 8 (1998), pp 777-789.
+\item Classification - MATLAB \& Simulink - MathWorks United Kingdom. 2016. Classification - MATLAB \& Simulink - MathWorks United Kingdom. [ONLINE] Available at: http://uk.mathworks.com/help/stats/classification.html. [Accessed 10 July 2016].
+\item Developer Resources. 2016. Developer Resources. [ONLINE] Available at: https:// imagej.nih.gov/ij/developer/. [Accessed 14 July 2016].
+\item Pijanka, J.K., Coudrillier, B., Ziegler, K., Sorensen, T., Meek, K.M., Nguyen, T.D., Quigley, H.A. \& Boote, C. 2012, "Quantitative mapping of collagen fiber orientation in non-glaucoma and glaucoma posterior human sclerae", Investigative Ophthalmology and Visual Science, vol. 53, no. 9, pp. 5258-5270.
+\item Quinn, K.P., Golberg, A., Broelsch, G.F., Khan, S., Villiger, M., Bouma, B., Austen, W.G., Sheridan, R.L., Mihm, M.C., Yarmush, M.L. \& Georgakoudi, I. 2015, "An automated image processing method to quantify collagen fibre organization within cutaneous scar tissue", Experimental Dermatology, vol. 24, no. 1, pp. 78-80.
+\item Pehlke, C., Doot, J., Sung, K., Riching, K., Nowak, R., Beebe, D., Keely, P. \& Eliceiri, K. 2011, "Quantitation of collagen alignment: tools for characterizing cancer progression and invasion", MOLECULAR BIOLOGY OF THE CELL, vol. 22.
+\item Walsh, A., Cook, R., Lee, J., Arteaga, C. \& Skala, M. 2015, "Collagen density and alignment in responsive and resistant trastuzumab-treated breast cancer xenografts", JOURNAL OF BIOMEDICAL OPTICS, vol. 20, no. 2, pp. 26004.
+\item Trentham-Dietz, A., Sprague, B., Conklin, M., Hampton, J., Gangnon, R., Eliceiri, K., Newcomb, P., Friedl, A. \& Kelly, P. 2014, "Collagen Fiber Alignment in Relation to Prognostic Markers for Ductal Carcinoma In Situ of the Breast", CANCER EPIDEMIOLOGY BIOMARKERS \& PREVENTION, vol. 23, no. 3, pp. 565-565.
+\item Grossman, M., Ben-Chetrit, N., Zhuravlev, A., Afik, R., Bassat, E., Solomonov, I., Yarden, Y. \& Sagi, I. 2016, "Tumor cell invasion can be blocked by modulators of collagen fibril alignment that control assembly of the extracellular matrix", Cancer Research, vol. 76, no. 14, pp. 4249-4258.
 
 \end{enumerate}
 

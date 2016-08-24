@@ -333,10 +333,13 @@ The principal disadvantage of the human-computer aid analysis is that it relies 
 
 \subsection{Machine Learning Classification}
 
-'Linear Discriminant Analysis','Fine Gaussian Support Vector Machine', and 'Simple Decision Tree'
+In order to identify TACS-3 fiber organization, is necessary to decide if the fibers are aligned. A machine learning classification to determine whether the fibers are aligned or not was run implemented under the MATLAB  Statistics and Machine Learning Toolbox.
 
+The machine learning success depends on the correct model and a number of samples. The number of images is limited. The rat tendons images were not enough to perform the test on them. The ovarian cancer tumour set of images contains 27 images. Machine learning approach requires two set of models: one to train the model, and the other to test the model. Even 27 images are few images. The training set of images had 18 images and the last 9 images were used to test.
 
+A bag-of-word of 200 elements were obtained from the train-set to characterize each image. As a result, each image was represented by a characteristic-array. Each characteristic-array contains 200 numbers registering the repetitions of each word inside the image. Additionally, the OFD and peak density were attached to the characteristic-array.
 
+The training set of images were classified as aligned and unaligned by the human judgment. Then, the  models were trained by using tree techniques:'Linear Discriminant Analysis','Fine Gaussian Support Vector Machine', and 'Simple Decision Tree'. The models were trained automatically by the MATLAB Statistics and Machine Learning Toolbox.  The influence of human judgment is never desired. 
 
 \subsection{Software Development}
 First, the algorithms were implemented in MATLAB for quickly debugging, as a proof of concept. However, as MATLAB is not an open source platform, then, the algorithms were implemented using Python. The Python implementation presents some disadvantages for the users, because it requires the Python and dependencies installation to run. Therefore, in order to provide a more user-friendly solution, a plugin for ImageJ was developed. The ImageJ plugin was developed in Java. ImageJ is a popular software in the scientist community to analyse images. Moreover, ImageJ has a tested full interface to manage images.
