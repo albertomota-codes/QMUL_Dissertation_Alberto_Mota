@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.12)  24 AUG 2016 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.12)  24 AUG 2016 13:18
 entering extended mode
 **./LatexDisertation.tex
 (LatexDisertation.tex
@@ -247,33 +247,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
-[3] (LatexDisertation.toc)
+[3] (LatexDisertation.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+ [4]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [5])
 \tf@toc=\write3
 \openout3 = `LatexDisertation.toc'.
 
- [4] (LatexDisertation.lof)
+ [6] (LatexDisertation.lof)
 \tf@lof=\write4
 \openout4 = `LatexDisertation.lof'.
 
- (LatexDisertation.lot)
+
+(LatexDisertation.lot)
 \tf@lot=\write5
 \openout5 = `LatexDisertation.lot'.
 
-
-[5]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 90.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 90.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 90.
+ [7]
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Ç in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [6]
+ [8]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -293,24 +301,13 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
  [6]
+<FiguresDisertation/figure1.jpg, id=59, 711.4078pt x 713.66624pt>
+File: FiguresDisertation/figure1.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `FiguresDisertation/figure1.jpg' not found on input line 19
-6.
+<use FiguresDisertation/figure1.jpg>
+Package pdftex.def Info: FiguresDisertation/figure1.jpg used on input line 196.
 
-
-! Package pdftex.def Error: File `FiguresDisertation/figure1.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ...inewidth]{FiguresDisertation/figure1.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<<ot1tt.cmap>>
+(pdftex.def)             Requested size: 455.24411pt x 456.70128pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no ∞ in font cmr10!
@@ -321,30 +318,21 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no ∞ in font cmr10!
 
+<FiguresDisertation/figure2.jpg, id=60, 711.4078pt x 713.66624pt>
+File: FiguresDisertation/figure2.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `FiguresDisertation/figure2.jpg' not found on input line 20
-4.
+<use FiguresDisertation/figure2.jpg>
+Package pdftex.def Info: FiguresDisertation/figure2.jpg used on input line 204.
 
-
-! Package pdftex.def Error: File `FiguresDisertation/figure2.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.204 ...inewidth]{FiguresDisertation/figure2.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+(pdftex.def)             Requested size: 455.24411pt x 456.70128pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[7] [8] [9] [10]
+ [7] [8 <./FiguresDisertation/figure1.jpg>] [9 <./FiguresDisertation/figure2.jp
+g>] [10]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -369,90 +357,50 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
+<FiguresDisertation/figure3.jpg, id=78, 711.4078pt x 680.5425pt>
+File: FiguresDisertation/figure3.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `FiguresDisertation/figure3.jpg' not found on input line 26
-4.
+<use FiguresDisertation/figure3.jpg>
+Package pdftex.def Info: FiguresDisertation/figure3.jpg used on input line 262.
 
-
-! Package pdftex.def Error: File `FiguresDisertation/figure3.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.264 ...inewidth]{FiguresDisertation/figure3.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+(pdftex.def)             Requested size: 455.24411pt x 435.50417pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 268.
-[12] [13]
+(Font)              <10.95> on input line 266.
+ [12]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¥ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
+ [13] [14 <./FiguresDisertation/figure3.jpg>] <FiguresDisertation/figure4.jpg, 
+id=89, 711.4078pt x 680.5425pt>
+File: FiguresDisertation/figure4.jpg Graphic file (type jpg)
 
+<use FiguresDisertation/figure4.jpg>
+Package pdftex.def Info: FiguresDisertation/figure4.jpg used on input line 291.
 
-LaTeX Warning: File `FiguresDisertation/figure4.jpg' not found on input line 29
-3.
+(pdftex.def)             Requested size: 455.24411pt x 435.50417pt.
 
+<FiguresDisertation/figure5.jpg, id=90, 711.4078pt x 680.5425pt>
+File: FiguresDisertation/figure5.jpg Graphic file (type jpg)
 
-! Package pdftex.def Error: File `FiguresDisertation/figure4.jpg' not found.
+<use FiguresDisertation/figure5.jpg>
+Package pdftex.def Info: FiguresDisertation/figure5.jpg used on input line 301.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.293 ...inewidth]{FiguresDisertation/figure4.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+(pdftex.def)             Requested size: 455.24411pt x 435.50417pt.
 
-[14] [15]
-
-LaTeX Warning: File `FiguresDisertation/figure5.jpg' not found on input line 30
-3.
-
-
-! Package pdftex.def Error: File `FiguresDisertation/figure5.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.303 ...inewidth]{FiguresDisertation/figure5.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (6.51314pt too wide) in paragraph at lines 311--312
+Overfull \hbox (6.51314pt too wide) in paragraph at lines 309--310
 []\OT1/cmr/m/n/12 First, a low-pass fil-ter re-moved the high-est fre-quency co
 m-po-nents. Then, high-frequency
  []
 
+<FiguresDisertation/figure6.jpg, id=91, 711.4078pt x 680.5425pt>
+File: FiguresDisertation/figure6.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `FiguresDisertation/figure6.jpg' not found on input line 31
-6.
+<use FiguresDisertation/figure6.jpg>
+Package pdftex.def Info: FiguresDisertation/figure6.jpg used on input line 314.
 
-
-! Package pdftex.def Error: File `FiguresDisertation/figure6.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.316 ...inewidth]{FiguresDisertation/figure6.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+(pdftex.def)             Requested size: 455.24411pt x 435.50417pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -462,173 +410,95 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[16] [17] [18] [19]
+ [15] [16 <./FiguresDisertation/figure4.jpg>] [17 <./FiguresDisertation/figure5
+.jpg>] [18 <./FiguresDisertation/figure6.jpg>] [19] [20]
+<FiguresDisertation/figure7.png, id=111, 711.4078pt x 713.66624pt>
+File: FiguresDisertation/figure7.png Graphic file (type png)
 
-LaTeX Warning: File `FiguresDisertation/figure7.png' not found on input line 35
-4.
+<use FiguresDisertation/figure7.png>
+Package pdftex.def Info: FiguresDisertation/figure7.png used on input line 359.
 
+(pdftex.def)             Requested size: 455.24411pt x 456.70128pt.
 
-! Package pdftex.def Error: File `FiguresDisertation/figure7.png' not found.
+<FiguresDisertation/figure8.jpg, id=113, 711.4078pt x 680.5425pt>
+File: FiguresDisertation/figure8.jpg Graphic file (type jpg)
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.354 ...inewidth]{FiguresDisertation/figure7.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<use FiguresDisertation/figure8.jpg>
+Package pdftex.def Info: FiguresDisertation/figure8.jpg used on input line 369.
 
+(pdftex.def)             Requested size: 455.24411pt x 435.50417pt.
 
-LaTeX Warning: File `FiguresDisertation/figure8.jpg' not found on input line 36
-4.
+<FiguresDisertation/figure9.png, id=114, 711.4078pt x 713.66624pt>
+File: FiguresDisertation/figure9.png Graphic file (type png)
 
+<use FiguresDisertation/figure9.png>
+Package pdftex.def Info: FiguresDisertation/figure9.png used on input line 380.
 
-! Package pdftex.def Error: File `FiguresDisertation/figure8.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.364 ...inewidth]{FiguresDisertation/figure8.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `FiguresDisertation/figure9.png' not found on input line 37
-5.
-
-
-! Package pdftex.def Error: File `FiguresDisertation/figure9.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.375 ...inewidth]{FiguresDisertation/figure9.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+(pdftex.def)             Requested size: 455.24411pt x 456.70128pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[20] [21] [22] [23]
+
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 390.
+               Default added (so using `tbp') on input line 395.
 
+<FiguresDisertation/t1a.png, id=115, 210.03468pt x 211.54031pt>
+File: FiguresDisertation/t1a.png Graphic file (type png)
 
-LaTeX Warning: File `FiguresDisertation/t1a.png' not found on input line 396.
+<use FiguresDisertation/t1a.png>
+Package pdftex.def Info: FiguresDisertation/t1a.png used on input line 401.
+(pdftex.def)             Requested size: 227.62206pt x 240.13222pt.
 
+<FiguresDisertation/t1b.png, id=116, 206.27063pt x 201.75375pt>
+File: FiguresDisertation/t1b.png Graphic file (type png)
 
-! Package pdftex.def Error: File `FiguresDisertation/t1a.png' not found.
+<use FiguresDisertation/t1b.png>
+Package pdftex.def Info: FiguresDisertation/t1b.png used on input line 402.
+(pdftex.def)             Requested size: 227.62206pt x 233.71764pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.396 ...im=0 0 0 -10]{FiguresDisertation/t1a.png}
-                                                   &
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<FiguresDisertation/t1c.png, id=117, 215.30438pt x 208.52907pt>
+File: FiguresDisertation/t1c.png Graphic file (type png)
 
+<use FiguresDisertation/t1c.png>
+Package pdftex.def Info: FiguresDisertation/t1c.png used on input line 404.
+(pdftex.def)             Requested size: 227.62206pt x 231.07584pt.
 
-LaTeX Warning: File `FiguresDisertation/t1b.png' not found on input line 397.
+<FiguresDisertation/t1d.png, id=118, 202.50656pt x 202.50656pt>
+File: FiguresDisertation/t1d.png Graphic file (type png)
 
+<use FiguresDisertation/t1d.png>
+Package pdftex.def Info: FiguresDisertation/t1d.png used on input line 405.
+(pdftex.def)             Requested size: 227.62206pt x 238.91042pt.
 
-! Package pdftex.def Error: File `FiguresDisertation/t1b.png' not found.
+<FiguresDisertation/t1e.png, id=119, 210.03468pt x 211.54031pt>
+File: FiguresDisertation/t1e.png Graphic file (type png)
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.397 ...im=0 0 0 -10]{FiguresDisertation/t1b.png}
-                                                   \\
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<use FiguresDisertation/t1e.png>
+Package pdftex.def Info: FiguresDisertation/t1e.png used on input line 407.
+(pdftex.def)             Requested size: 227.62206pt x 240.13222pt.
 
+<FiguresDisertation/t1f.png, id=120, 205.5178pt x 198.7425pt>
+File: FiguresDisertation/t1f.png Graphic file (type png)
 
-LaTeX Warning: File `FiguresDisertation/t1c.png' not found on input line 399.
+<use FiguresDisertation/t1f.png>
+Package pdftex.def Info: FiguresDisertation/t1f.png used on input line 408.
+(pdftex.def)             Requested size: 227.62206pt x 231.23564pt.
 
-
-! Package pdftex.def Error: File `FiguresDisertation/t1c.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.399 ...im=0 0 0 -10]{FiguresDisertation/t1c.png}
-                                                   &
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `FiguresDisertation/t1d.png' not found on input line 400.
-
-
-! Package pdftex.def Error: File `FiguresDisertation/t1d.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.400 ...im=0 0 0 -10]{FiguresDisertation/t1d.png}
-                                                   \\
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `FiguresDisertation/t1e.png' not found on input line 402.
-
-
-! Package pdftex.def Error: File `FiguresDisertation/t1e.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.402 ...im=0 0 0 -10]{FiguresDisertation/t1e.png}
-                                                   &
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `FiguresDisertation/t1f.png' not found on input line 403.
-
-
-! Package pdftex.def Error: File `FiguresDisertation/t1f.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.403 ...im=0 0 0 -10]{FiguresDisertation/t1f.png}
-                                                   \\
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (25.19998pt too wide) in paragraph at lines 392--406
+Overfull \hbox (25.19998pt too wide) in paragraph at lines 397--411
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 153.96397pt on input line 408.
+LaTeX Warning: Float too large for page by 95.38351pt on input line 413.
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
+[21] [22 <./FiguresDisertation/figure7.png>] [23 <./FiguresDisertation/figure8.
+jpg>] [24 <./FiguresDisertation/figure9.png>] [25 <./FiguresDisertation/t1a.png
+> <./FiguresDisertation/t1b.png> <./FiguresDisertation/t1c.png> <./FiguresDiser
+tation/t1d.png> <./FiguresDisertation/t1e.png> <./FiguresDisertation/t1f.png>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -637,13 +507,14 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¥ in font cmr12!
-[24] [25]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
+
+[26]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -659,8 +530,8 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [26]
-Overfull \hbox (35.08275pt too wide) in paragraph at lines 462--463
+ [27]
+Overfull \hbox (35.08275pt too wide) in paragraph at lines 467--468
 []\OT1/cmr/m/n/12 Only two tech-niques could anal-yse the ten-don fibers: Fouri
 er's ap-proach and computationally-
  []
@@ -671,52 +542,40 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
-[27]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ¥ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ¥ in font cmr12!
-
-
-LaTeX Warning: File `FiguresDisertation/figure10o9.jpg' not found on input line
- 492.
-
-
-! Package pdftex.def Error: File `FiguresDisertation/figure10o9.jpg' not found.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.492 ...width]{FiguresDisertation/figure10o9.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no ¥ in font cmr10!
 [28]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [29] [30]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+ <FiguresDisertation/figure10o9.jpg, id=153, 264.99pt x 260.975pt>
+File: FiguresDisertation/figure10o9.jpg Graphic file (type jpg)
+
+<use FiguresDisertation/figure10o9.jpg>
+Package pdftex.def Info: FiguresDisertation/figure10o9.jpg used on input line 4
+97.
+(pdftex.def)             Requested size: 455.24411pt x 448.37845pt.
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+ [29]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [30] [31 <./FiguresDisertation/figure10o9.jpg>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -732,17 +591,17 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [31]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
  [32]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [33]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
@@ -756,12 +615,12 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¥ in font cmr12!
- [33]
+ [34]
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
- [34]
-Overfull \hbox (48.20139pt too wide) in paragraph at lines 565--566
+ [35]
+Overfull \hbox (48.20139pt too wide) in paragraph at lines 570--571
 \OT1/cmr/m/n/12 line(http://loci.wisc.edu/files/loci/software /ct-FIRE%20Beta%2
 0V1.2.1%20Users%20Manual.pdf) 
  []
@@ -772,34 +631,34 @@ Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¥ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¥ in font cmr12!
-[35]
+[36]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [36]
-Overfull \hbox (27.04486pt too wide) in paragraph at lines 597--598
+ [37]
+Overfull \hbox (27.04486pt too wide) in paragraph at lines 602--603
 \OT1/cmr/m/n/12 op-ers to im-ple-ment new fea-tures. The plu-gin code is hosted
  in:https://github.com/motapuma/-
  []
 
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¥ in font cmr12!
-[37] [38]
+[38] [39]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ° in font cmr12!
- [39] [40] [41]
+ [40] [41] [42]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¥ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¥ in font cmr12!
- [42]
+ [43]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ê in font cmr12!
- [43] [44]
+ [44] [45]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -809,29 +668,53 @@ Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [45]
+ [46]<<ot1tt.cmap>>
+(SourceCode/Fiber_Orientation.java
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
+ [47] [48] [49] [50] [51] [52] [53]
+Overfull \hbox (13.1583pt too wide) in paragraph at lines 305--306
+[][] 
+ []
 
-! Package Listings Error: File `SourceCode/Fiber_Orientation(.java)' not found.
+[54]
+Overfull \hbox (48.34628pt too wide) in paragraph at lines 308--309
+[][][][][] 
+ []
 
+[55] [56] [57] [58] [59]
+Overfull \hbox (13.85379pt too wide) in paragraph at lines 503--504
+[][][][][] 
+ []
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: java)
-
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.699 ...isting{SourceCode/Fiber_Orientation.java}
-                                                  
-*** (cannot \read from terminal in nonstop modes)
-
- 
+[60]) [61] (LatexDisertation.aux) ) 
 Here is how much of TeX's memory you used:
- 3052 strings out of 493622
- 44138 string characters out of 3140856
- 135713 words of memory out of 3000000
- 6378 multiletter control sequences out of 15000+200000
- 10200 words of font info for 36 fonts, out of 3000000 for 9000
+ 3444 strings out of 493622
+ 50804 string characters out of 3140856
+ 258713 words of memory out of 3000000
+ 6763 multiletter control sequences out of 15000+200000
+ 10367 words of font info for 37 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,10n,47p,1120b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 29i,11n,47p,1120b,1519s stack positions out of 5000i,500n,10000p,200000b,50000s
+<G:/Desktop/QMUL/AwesomeSoftware/TexPortable
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/Desktop/QMUL/AwesomeSoftw
+are/TexPortable/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><G:/Desktop/QM
+UL/AwesomeSoftware/TexPortable/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pf
+b><G:/Desktop/QMUL/AwesomeSoftware/TexPortable/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><G:/Desktop/QMUL/AwesomeSoftware/TexPortable/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><G:/Desktop/QMUL/AwesomeSoftware/TexPortable/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><G:/Desktop/QMUL/AwesomeSoftware/
+TexPortable/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><G:/Desktop/QMUL/Aw
+esomeSoftware/TexPortable/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><G:/D
+esktop/QMUL/AwesomeSoftware/TexPortable/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr17.pfb><G:/Desktop/QMUL/AwesomeSoftware/TexPortable/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr8.pfb><G:/Desktop/QMUL/AwesomeSoftware/TexPortable/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><G:/Desktop/QMUL/AwesomeSoftware/TexPortab
+le/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><G:/Desktop/QMUL/AwesomeSoft
+ware/TexPortable/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on LatexDisertation.pdf (69 pages, 1552112 bytes).
+PDF statistics:
+ 305 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+

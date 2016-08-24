@@ -1,0 +1,75 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {subsection}{\numberline {1.1}Motivation}{1}
+\contentsline {subsection}{\numberline {1.2}Objectives}{1}
+\contentsline {subsection}{\numberline {1.3}State of art}{1}
+\contentsline {subsubsection}{\numberline {1.3.1}Strengths and weaknesses}{2}
+\contentsline {subsection}{\numberline {1.4}Proposed Approach}{3}
+\contentsline {section}{\numberline {2}Theory}{3}
+\contentsline {subsection}{\numberline {2.1}Cancer-Collagen Correlation}{3}
+\contentsline {subsection}{\numberline {2.2}Second Harmonic Generation(SHG)}{4}
+\contentsline {subsection}{\numberline {2.3}2D Fourier Transformation as fiber orientation measurement}{5}
+\contentsline {subsection}{\numberline {2.4}Fiber Extraction}{7}
+\contentsline {subsection}{\numberline {2.5}Pre-processing Image}{7}
+\contentsline {subsection}{\numberline {2.6}Machine Learning Classification}{10}
+\contentsline {subsubsection}{\numberline {2.6.1}Bag Of Words}{10}
+\contentsline {subsubsection}{\numberline {2.6.2}Support Vector Machine}{10}
+\contentsline {subsubsection}{\numberline {2.6.3}Simple Decision Tree}{11}
+\contentsline {subsubsection}{\numberline {2.6.4}Linear Discriminant Analysis}{11}
+\contentsline {section}{\numberline {3}Methods}{11}
+\contentsline {subsection}{\numberline {3.1}Images sources}{11}
+\contentsline {subsection}{\numberline {3.2}Pre-Processing Stage}{11}
+\contentsline {subsubsection}{\numberline {3.2.1}Binarization}{11}
+\contentsline {subsubsection}{\numberline {3.2.2}Erosion and dilation}{12}
+\contentsline {subsection}{\numberline {3.3}Fibers Orientation}{12}
+\contentsline {subsubsection}{\numberline {3.3.1}Peak Density}{13}
+\contentsline {subsubsection}{\numberline {3.3.2}Example: SHG Metastatic Ovarian Tumours}{15}
+\contentsline {subsection}{\numberline {3.4}Fiber's Length and Diameter}{15}
+\contentsline {subsection}{\numberline {3.5}Single Fiber Isolation}{19}
+\contentsline {subsection}{\numberline {3.6}Human-Computer Aid Analysis}{19}
+\contentsline {subsection}{\numberline {3.7}Machine Learning Classification}{19}
+\contentsline {subsection}{\numberline {3.8}Software Development}{20}
+\contentsline {section}{\numberline {4}Results}{20}
+\contentsline {subsection}{\numberline {4.1}Fiber Orientation}{20}
+\contentsline {subsubsection}{\numberline {4.1.1}SHG Metastic Ovarian Tumours}{20}
+\contentsline {subsubsection}{\numberline {4.1.2}Rat tail tendon fascicles}{21}
+\contentsline {subsection}{\numberline {4.2}Comparision}{21}
+\contentsline {subsubsection}{\numberline {4.2.1}CT-FIRE(Ovarian Tumours)}{21}
+\contentsline {subsubsection}{\numberline {4.2.2}Single Fiber Isolation (SFI) Results (Ovarian Tumours)}{26}
+\contentsline {subsubsection}{\numberline {4.2.3}Human-Computer Aid (Ovarian Tumours) }{26}
+\contentsline {subsubsection}{\numberline {4.2.4}Overall Comparision (Ovarian Tumours) }{27}
+\contentsline {subsection}{\numberline {4.3}Rat Tendons Images}{28}
+\contentsline {subsubsection}{\numberline {4.3.1}CT-FIRE Results (Rat Tendons)}{28}
+\contentsline {subsubsection}{\numberline {4.3.2}Fourier’s Approach (Rat Tendons)}{28}
+\contentsline {subsubsection}{\numberline {4.3.3}Human-Computer Aid (Rat Tendons)}{29}
+\contentsline {subsubsection}{\numberline {4.3.4}Overall comparison (Rat Tendons)}{29}
+\contentsline {subsection}{\numberline {4.4}Machine Learning Classification}{29}
+\contentsline {subsection}{\numberline {4.5}ImageJ plugin}{29}
+\contentsline {subsection}{\numberline {4.6}Accuracy}{30}
+\contentsline {section}{\numberline {5}Discussion}{30}
+\contentsline {subsection}{\numberline {5.1}Fibers as curves}{30}
+\contentsline {subsection}{\numberline {5.2}Orientation Angle Length Weighted}{32}
+\contentsline {subsection}{\numberline {5.3}Fiber detection challenge}{33}
+\contentsline {subsection}{\numberline {5.4}Alignment Level}{33}
+\contentsline {subsection}{\numberline {5.5}Diameter Assessment Challenge}{34}
+\contentsline {subsection}{\numberline {5.6}Image Preprocessing}{34}
+\contentsline {subsubsection}{\numberline {5.6.1}Binarization}{34}
+\contentsline {subsubsection}{\numberline {5.6.2}Morphological Dilation-Erosion}{34}
+\contentsline {subsection}{\numberline {5.7}Fourier’s Analysis Approach}{35}
+\contentsline {subsection}{\numberline {5.8}CT-FIRE}{36}
+\contentsline {subsection}{\numberline {5.9}Single Fiber Isolation}{36}
+\contentsline {subsection}{\numberline {5.10}Computer Aid Analysis}{37}
+\contentsline {subsection}{\numberline {5.11}Absence of standard}{37}
+\contentsline {subsection}{\numberline {5.12}Open Source}{38}
+\contentsline {subsection}{\numberline {5.13}Usability}{38}
+\contentsline {subsection}{\numberline {5.14}Multifactorial Analysis}{39}
+\contentsline {subsection}{\numberline {5.15}OFD Peak-Density}{39}
+\contentsline {subsection}{\numberline {5.16}Machine Learning Classification}{40}
+\contentsline {subsection}{\numberline {5.17}Statistical Results}{40}
+\contentsline {subsection}{\numberline {5.18}Analyse images}{41}
+\contentsline {section}{\numberline {6}Conclusion}{41}
+\contentsline {subsection}{\numberline {6.1}Future work}{41}
+\contentsline {subsection}{\numberline {6.2}Conclusion}{42}
+\contentsline {section}{\numberline {7}Acknowledgements}{44}
+\contentsline {section}{\numberline {8}References}{44}
+\contentsline {section}{\numberline {9}Appendices}{47}
+\contentsline {subsection}{\numberline {9.1}ImageJ Plugin}{47}
