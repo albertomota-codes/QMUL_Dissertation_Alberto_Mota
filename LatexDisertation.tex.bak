@@ -223,7 +223,7 @@ The dilation process is the antithesis of the erosion. The matrix B moves inside
 The low-pass band filter is implemented by defining a cut-off frequency. All the components with a higher than the frequency are removed. As a result, only low-frequency components, which are characteristic of fibers, remain for the proper analysis.  Complementarily, as a finer filter, a dilate-erosion algorithm removes isolated groups of high-frequency components below the cut-off frequency.
 
 \subsection{Machine Learning Classification}
-Supervised machine learning classifiers are adaptive algorithms to generate predictions based on datasets provided. The classifier algorithms prognosticate the group at which future dataset belongs.  The workflow first consists in extract datasets from test-images. The test-image's classification is well known. The datasets of each image are obtained from the images' features. The technique utilized to get images' features is called 'bag of words'. Then, the model is trained, to archive a model able to predict. The training was performed by different techniques such as: 'Linear Discriminant Analysis','Fine Gaussian Support Vector Machine', and 'Simple Decision Tree'. 
+Supervised machine learning classifiers are adaptive algorithms to generate predictions based on datasets provided. The classifier algorithms prognosticate the group at which future dataset belongs.  The workflow first consists in extract datasets from test-images. The test-image's classification is well known. The datasets of each image are obtained from the images' features. The technique utilized to get images' features is called 'bag of words'. Then, the model is trained, to archive a model able to predict. The training was performed by different techniques such as: 'Linear Discriminant','Fine Gaussian Support Vector Machine', and 'Simple Decision Tree'. 
 
 \subsubsection{Bag Of Words}
 Visual-word is a concept to characterize images.All images contain characteristic matrixes of pixels. Each matrix of pixels is a visual-word. A bag-of-words is a set of unique visual-words. The set of visual-words is extracted from several images. Then, each image is characterized by an array specifying the number of repetition of each visual-word inside an image. Bag-of-words technique is employed in machine learning algorithm to characterize images. 
@@ -235,9 +235,8 @@ The Support Vector Machine (SVM) is a machine learning technique for classificat
 \subsubsection{Simple Decision Tree}
 A decision tree is a structure of conditions to archive a resolution. The tree has internal nodes with conditions/tests to select a route along the tree's branches.  As the algorithm reach the end of a branch a decision is archived, In this case, the decision trees are based on the dataset provided for each image. The decision desired is the group to which each image belongs.  
 
-\subsubsection{Linear Discriminant Analysis}
+\subsubsection{Linear Discriminant}
 
-The Linear Disctiminant approach is based in the analysis of variance, regression analysis,principal component analysis and factor analysis.
 
 
 
